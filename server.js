@@ -33,7 +33,7 @@ bcrypt.hash(myPlaintextPassword, saltRounds, function(err, hash) {
         console.log('Async compare (incorrect):', res);
     });
 });
-
+console.log("Vamos carajo");
 //END_ASYNC
 
 //START_SYNC
